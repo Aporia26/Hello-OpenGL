@@ -31,6 +31,13 @@ Every file inside the `src/` directory represents a fully isolated and functiona
 *   **`shader.h`**
     *   *Technical Focus:* A custom header class blueprint built to automate reading, compiling, and linking GLSL shader source code files smoothly.
 
+*   **`Textures.cpp`**
+    *   *Technical Focus:* Experimenting with Texture generation, passing dynamic color data down the graphics pipeline, and playing with custom fragment shader math, and stb_image.h.
+    *   *Render Output:*
+        <br><img src="images/doorTexture.png" width="50%" alt="OpenGL Texture Render" /><br>
+        <br><img src="images/doorTextureRGB.png" width="50%" alt="OpenGL Texture with funky Render" /><br>
+        <br><img src="images/doorTextureDouble.png" width="50%" alt="OpenGL double Texture Render" /><br>
+
 ---
 
 ## 🛠️ Environment & Toolkit
