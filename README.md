@@ -36,7 +36,7 @@ Every file inside the `src/` directory represents a fully isolated and functiona
     *   *Render Output:*
         <br><img src="images/doorTexture.png" width="50%" alt="OpenGL Texture Render" /><br>
         <br><img src="images/doorTextureRGB.png" width="50%" alt="OpenGL Texture with funky Render" /><br>
-        <br><img src="images/doorTextureDouble.png" width="50%" alt="OpenGL double Texture Render" /><br>
+        <br><img src="images/doubleTexture.png" width="50%" alt="OpenGL double Texture Render" /><br>
 
 ---
 
