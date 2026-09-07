@@ -37,6 +37,12 @@ Every file inside the `src/` directory represents a fully isolated and functiona
         <br><img src="images/doorTexture.png" width="50%" alt="OpenGL Texture Render" /><br>
         <br><img src="images/doorTextureRGB.png" width="50%" alt="OpenGL Texture with funky Render" /><br>
         <br><img src="images/doubleTexture.png" width="50%" alt="OpenGL double Texture Render" /><br>
+        
+*   **`Transformation.cpp`**
+    *   *Technical Focus:* Applying the vectors and matrix calculations and math with glm to get transformation on the rendered shape, understanding glm.
+    *  *Render Output:*
+       <br><img src="images/rotatingFace.gif" alt="Rotation" width="60%" /><br>
+
 
 ---
 
