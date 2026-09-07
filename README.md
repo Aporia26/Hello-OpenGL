@@ -3,6 +3,9 @@
 
 A step-by-step progression of graphics pipeline milestones, documenting my journey into low-level rendering context execution, custom GLSL shader compilation, and coordinate texture mapping.
 
+> ⚠️ **Note on Compiling:** This repository uses localized absolute directory paths for asset parsing and graphics dependencies. To build this on your local environment, ensure your `.vscode/tasks.json` and asset paths match your system setup.
+
+
 ---
 
 ## 🗺️ Learning Roadmap & Visual Milestones
