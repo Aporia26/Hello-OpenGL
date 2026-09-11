@@ -49,8 +49,8 @@ Every file inside the `src/` directory represents a fully isolated and functiona
 *   **`Coordinate_sys.cpp`**
     *   *Technical Focus:* Understood different coordinates spaces like local,world,view,clip ect, there significanceand conversion, and how projections works..
     *  *Render Output:*
-       <img src="images/Perspective.png" alt="Rotation" width="40%" />
-       <br><img src="images/3Dcube.png" alt="Rotation" width="40%" /><br>
+       
+       <br><img src="images/Perspective.png" alt="Rotation" width="40%" /><br>
        <img src="images/3D_cubeRender.gif" alt="Rotation" width="40%" />
       <br><img src="images/Z-buffer.gif" alt="Rotation" width="40%" /><br>
       <img src="images/Manycubes.png" alt="Rotation" width="50%" />
