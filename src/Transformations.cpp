@@ -39,8 +39,7 @@ int main(){
         return -1;
     }
     //shader
-    Shader ourShader("C:/Users/Avita/Desktop/MY FOLDER/codingEXE/Practice_/opengl_learningBasics/src/shaders/transform.vs",
-      "C:/Users/Avita/Desktop/MY FOLDER/codingEXE/Practice_/opengl_learningBasics/src/shaders/transform.fs");
+    Shader ourShader("src/shaders/transform.vs","src/shaders/transform.fs");
 
     float vertices[] = {
       // positions          // colors           // texture coords
@@ -96,7 +95,7 @@ int main(){
     // load image, create texture and generate mipmaps
     int imgwidth, imgheight, imgnrChannels;
     stbi_set_flip_vertically_on_load(true); // tell stb_image.h to flip loaded texture's on the y-axis.
-    unsigned char *data = stbi_load("C:/Users/Avita/Desktop/MY FOLDER/codingEXE/Practice_/opengl_learningBasics/ScaryTroll_tex.png", &imgwidth, &imgheight, &imgnrChannels, 3);
+    unsigned char *data = stbi_load("ScaryTroll_tex.png", &imgwidth, &imgheight, &imgnrChannels, 3);
 
     if (data)
     {
