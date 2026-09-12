@@ -237,6 +237,26 @@ ourShader.setInt("texture2", 1); // Assigns uniform sampler2D texture2 to GL_TEX
         glBindTexture(GL_TEXTURE_2D, texture2);
 
         ourShader.use();
+
+
+      //CAMERA vectors----->
+    //direction(target)
+   // glm::vec3 cameraPos = glm::vec3(0.0f,0.0f,3.0f);
+    //glm::vec3 cameraTarget = glm::vec3(0.0f,0.0f,0.0f);
+    //glm::vec3 cameraDirection = glm::normalize(cameraPos - cameraTarget);
+    //right axis
+    //glm::vec3 up = glm::vec3(0.0f,1.0f,0.0f);
+    //glm::vec3 cameraRight = glm::normalize(glm::cross(up,cameraDirection));
+    //up axis
+    //glm::vec3 cameraUp = glm::cross(cameraDirection,cameraRight);
+    //making our lookAt matrix to tranform our camera--->Example
+   // glm::mat4 View;
+   // View = glm::lookAt(glm::vec3(0.0f,0.0f,3.0f),  //needs positon
+   //                    glm::vec3(0.0f, 0.0f, 0.0f), //target
+  // 	                  glm::vec3(0.0f, 1.0f, 0.0f));  //and up      
+
+
+      
     // create transformations
      // make sure to initialize matrix to identity matrix first
         glm::mat4 view          = glm::mat4(1.0f);
@@ -245,6 +265,12 @@ ourShader.setInt("texture2", 1); // Assigns uniform sampler2D texture2 to GL_TEX
         //THE LOOKAT FUNCTION (MATRIX)
         view = glm::lookAt(cameraPos, cameraPos+cameraFront, cameraUp);
         ourShader.setMat4("view", view);
+      //lookat making for camera but in funky way roataing camera in predefined radius
+     // const float radius = 15.0f;
+      //float camX = sin(glfwGetTime()) * radius;
+      //float camZ = cos(glfwGetTime()) * radius;
+      //view = glm::lookAt(glm::vec3(camX, 0.0, camZ), glm::vec3(0.0, 0.0, 0.0), glm::vec3(0.0, 1.0, 0.0));
+
 
         
         projection = glm::perspective(glm::radians(fov), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
