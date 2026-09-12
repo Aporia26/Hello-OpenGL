@@ -50,8 +50,7 @@ int main()
 
     // build and compile our shader zprogram
     // ------------------------------------
-    Shader ourShader("C:/Users/Avita/Desktop/MY FOLDER/codingEXE/Practice_/opengl_learningBasics/src/shaders/texture.vs", 
-                 "C:/Users/Avita/Desktop/MY FOLDER/codingEXE/Practice_/opengl_learningBasics/src/shaders/texture.fs");
+    Shader ourShader("src/shaders/texture.vs", "src/shaders/texture.fs");
  
  
   //Texture images have their coordinates origin at bottom left.
