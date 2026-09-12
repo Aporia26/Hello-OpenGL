@@ -45,8 +45,7 @@ int main()
     }
      glViewport(0, 0, 800, 600);
 
-    Shader ourShader("C:/Users/Avita/Desktop/MY FOLDER/codingEXE/Practice_/opengl_learningBasics/src/shaders/texture.vs", 
-                 "C:/Users/Avita/Desktop/MY FOLDER/codingEXE/Practice_/opengl_learningBasics/src/shaders/double_texture.fs");
+    Shader ourShader("src/shaders/texture.vs","src/shaders/double_texture.fs");
  
     float vertices[] = {
         // positions          // colors           // texture coords
