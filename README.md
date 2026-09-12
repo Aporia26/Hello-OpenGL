@@ -55,6 +55,10 @@ Every file inside the `src/` directory represents a fully isolated and functiona
       <br><img src="images/Z-buffer.gif" alt="Rotation" width="40%" /><br>
       <img src="images/Manycubes.png" alt="Rotation" width="50%" />
 
+*   **`Fly_Camera.cpp`**
+    *   *Technical Focus:* understanding camera vectors, how the LookAt matrix works, GLFW mouse inputs and how to capture the mouse and tracking. Also, understood view matrices in more depth.
+    *   *Output Output Preview:* *(shows a smooth mouse track and wasd movement flying in the 3d environment).*
+
 
 
 
