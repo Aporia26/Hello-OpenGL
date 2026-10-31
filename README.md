@@ -59,6 +59,11 @@ Every file inside the `src/` directory represents a fully isolated and functiona
     *   *Technical Focus:* understanding camera vectors, how the LookAt matrix works, GLFW mouse inputs and how to capture the mouse and tracking. Also, understood view matrices in more depth.
     *   *Output Output Preview:* *(shows a smooth mouse track and wasd movement flying in the 3d environment).*
 
+*   **`Lighting.cpp`**
+    *   *Technical Focus:* Understanding how color works and the mathematics behind simulating lights. The phong model of lighting etc.
+    *   *Output Output Preview:* *(shows a smooth lighting render).*
+
+      <br><img src="images/ColorLight.gif" alt="Rotation" width="60%" /><br>
 
 
 
