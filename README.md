@@ -64,7 +64,11 @@ Every file inside the `src/` directory represents a fully isolated and functiona
     *   *Output Output Preview:* *(shows a smooth lighting render).*
 
       <br><img src="images/ColorLight.gif" alt="Rotation" width="60%" /><br>
-
+      
+*   **`Material.cpp`**
+    *   *Technical Focus:* understanding about different types of materials interacts with light differently causing difference in shininess and hence their appearance and I have implemented it to 6 materials - Emerald, Gold, Silver and Cyan Plastic, Rubber, Chrome.
+    *   *Output Output Preview:* *(Different materials).*
+          <img src="images/Material.png" alt="Wow" width="50%" />
 
 
 ---
