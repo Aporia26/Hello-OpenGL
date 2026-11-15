@@ -29,7 +29,7 @@ Every file inside the `src/` directory represents a fully isolated and functiona
 *   **`More_Shaders.cpp`**
     *   *Technical Focus:* Experimenting with vertex attributes, passing dynamic color data down the graphics pipeline, and playing with custom fragment shader math.
     *   *Render Output:*
-        <br><img src="images/More_Shaders.png" width="50%" alt="OpenGL Gradient Shaders Render" /><br>
+         <br><img src="images/Night_Walker.gif" alt="Rotation" width="60%" /><br>
 
 *   **`shader.h`**
     *   *Technical Focus:* A custom header class blueprint built to automate reading, compiling, and linking GLSL shader source code files smoothly.
