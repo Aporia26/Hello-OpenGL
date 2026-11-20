@@ -66,10 +66,15 @@ Every file inside the `src/` directory represents a fully isolated and functiona
       <br><img src="images/ColorLight.gif" alt="Rotation" width="60%" /><br>
       
 *   **`Material.cpp`**
-    *   *Technical Focus:* understanding about different types of materials interacts with light differently causing difference in shininess and hence their appearance and I have implemented it to 6 materials - Emerald, Gold, Silver and Cyan Plastic, Rubber, Chrome.
+    *   *Technical Focus:* understanding about different types of materials interacts with light differently causing difference in shininess and hence their                appearance and I have implemented it to 6 materials - Emerald, Gold, Silver and Cyan Plastic, Rubber, Chrome.
     *   *Output Output Preview:* *(Different materials).*
           <img src="images/Material.png" alt="Wow" width="50%" />
+          
+*   **`LightMaps.cpp`**
+    *   *Technical Focus:* Learnt How to UV map texture images and project on to my cube. How we can use Diffusion, Specular and Emissive Light Maps textures onto          our mesh to get realistic lighting interaction with our mesh. 
+    *   *Output Output Preview:* *(shows lightmap interaction).*
 
+      <br><img src="images/LightMaps.gif" alt="texture maps" width="60%" /><br>
 
 ---
 
